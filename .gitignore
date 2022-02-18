@@ -5,14 +5,14 @@
 /.pnp
 .pnp.js
 README.md
+
 /public/*.*
 !/public/index.html
-App.test.js
-index.css
-index.js
-logo.svg
-reportWebVitals.js
-setuptests.js
+
+/src/*.*
+!/src/main
+!/src/App.js
+!/src/App.css
 
 # testing
 /coverage
