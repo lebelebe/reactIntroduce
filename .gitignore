@@ -5,7 +5,8 @@
 /.pnp
 .pnp.js
 README.md
-/public
+/public/*.*
+!/public/index.html
 App.test.js
 index.css
 index.js
