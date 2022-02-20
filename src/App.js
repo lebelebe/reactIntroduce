@@ -1,8 +1,12 @@
 import React, {Component} from 'react'
+import { BrowserRouter } from 'react-router-dom';
+
+import Header from './main/Header'
+import Footer from './main/Footer'
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Header from './main/Header'
-// import Footer from './main/Footer'
 // import Contact from './main/Contact'
 // import Introduce from './main/about/Introduce'
 // import Skill from './main/about/Skill'
@@ -13,19 +17,19 @@ import './App.css';
 class App extends Component{
   render(){
     return (
-      <div>
-        <h1>Hello World!</h1>
-        {/*
+      <BrowserRouter>
+        
+        
         <Header></Header>
-        <Introduce></Introduce>
+        {/* <Introduce></Introduce>
         <Skill></Skill>
         <Project></Project>
         <ProjectView></ProjectView>
         <TeamProject></TeamProject>
-        <Contact></Contact>
+        <Contact></Contact> */}
         <Footer></Footer>
-        */}
-      </div>
+       
+      </BrowserRouter>
     );
   }
 }
