@@ -7,6 +7,7 @@ import { Navbar,
     DropdownToggle,
     DropdownMenu} from 'reactstrap';
 import svgimg from '../img/header/githublogo.svg'
+import headerstyle from'./css/header.module.css'
 
 
 
@@ -45,7 +46,7 @@ class Header extends Component{
                     <Collapse isOpen={ this.state.isOpen } navbar>
                         <ul className="navbar-nav">
                             <NavItem>
-                                <NavLink to="/components/">Components</NavLink>
+                                <NavLink to="/components/" className={headerstyle.color}>Components</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink to="/components2/">Components2</NavLink>
